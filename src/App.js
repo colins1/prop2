@@ -5,8 +5,9 @@ import Listing from './components/Listing';
 import data from './data/etsy.json';
 
 function App() {
+  const dates = {data};
   return (
-    <Listing items={data}/>
+    <Listing items={dates}/>
   );
 }
 
